@@ -5,9 +5,9 @@ namespace Bloge\Renderers;
 use Jade\Jade as JadePHP;
 
 /**
- * JadeRenderer adapter
+ * Jade renderer adapter
  * 
- * @package bloge/jade
+ * @package bloge/jade-renderer
  */
 class Jade implements IRenderer
 {

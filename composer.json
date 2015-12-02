@@ -1,6 +1,9 @@
 {
-    "name": "bloge/jade",
+    "name": "bloge/jade-renderer",
     "description": "Jade renderer adapter for Bloge",
+    "autoload": {
+        "Bloge\\Renderers\\": "src/"
+    },
     "require": {
         "bloge/bloge": "dev-master",
         "kylekatarnls/jade-php": "^1.3"
