@@ -2,7 +2,9 @@
     "name": "bloge/jade-renderer",
     "description": "Jade renderer adapter for Bloge",
     "autoload": {
-        "Bloge\\Renderers\\": "src/"
+        "psr-4": {
+            "Bloge\\Renderers\\": "src/"
+        }
     },
     "require": {
         "bloge/bloge": "dev-master",
