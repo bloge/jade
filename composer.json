@@ -1,0 +1,8 @@
+{
+    "name": "bloge/jade",
+    "description": "Jade renderer adapter for Bloge",
+    "require": {
+        "bloge/bloge": "dev-master",
+        "kylekatarnls/jade-php": "^1.3"
+    }
+}
